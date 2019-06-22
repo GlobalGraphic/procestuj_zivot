@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	font-family: Raleway;
+	scroll-behavior: smooth;
+}
+
+
+div.main {
+	width: 100%;
+	height: 100%;
+}
+
+a.nav-link {
+	font-family: Raleway;
+	color: #676767;
+	font-size: 20px;
+}
+
+.carousel-caption {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  top: 60%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+a.nav-link:hover {
+	color: #8D1B7F;
+}
+
+h1#heading {
+	font-family: Raleway;
+	color: #8D1B7F;
+}
+
+h2.heading {
+	font-family: Raleway;
+	color: #8D1B7F;	
+}
+
+h2 {
+	font-family: Raleway;
+	margin-bottom: 100px;
+	color: #333;
+}
+
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (orientation : portrait) {
+
+.carousel-caption {
+	margin-top: -60px;
+}
+
+.carousel-caption button {
+	margin-top: -30px;
+}
+
+.carousel-indicators {
+	display: hidden;
+}
+
+.col-md-4 button {
+	margin-bottom: 35px;
+}
+
+
+}
